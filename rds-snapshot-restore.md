@@ -34,6 +34,8 @@ Go to:
 RDS → Snapshots
 Select snapshot: nautilus-snapshot
 Click Actions → Restore snapshot
+
+
 ⚙️ Step 3: Configure New RDS Instance
 
 While restoring, configure:
@@ -47,6 +49,7 @@ DB instance class:
 db.t3.micro
 Keep other settings as default (unless specified)
 Click Restore DB instance
+
 ⏳ Step 4: Wait for Completion
 
 Navigate to:
@@ -56,6 +59,7 @@ RDS → Databases
 Wait until status becomes:
 
 Available
+
 ✅ Step 5: Verification
 
 Ensure the following:
