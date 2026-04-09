@@ -1,0 +1,17 @@
+## What I did
+- Fixed typo (Mooose → Mouse)
+- Resolved branch divergence
+- Used git pull --rebase
+- Fixed merge conflicts
+- Successfully pushed changes
+
+## Commands used
+git status
+git add .
+git commit -m "fix"
+git pull origin master 
+cat story-index.txt
+vi tory-index.txt --> clear the merge conflit
+git add .
+git commit -m "fix conflict"
+git push origin master
